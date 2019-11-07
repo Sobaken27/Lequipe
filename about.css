@@ -121,7 +121,7 @@ line-height: 1.5;
 }
 .navbar {
 	background-color: rgba(0,0,0,0.45) !important;
-	box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.45);
+	box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.5);
 }
 .nav-item {
 text-align: center;
@@ -147,15 +147,62 @@ border-top: 1px solid white !important;
 .nav-link {
 	border:1px solid rgba(0,0,0,0);
 }
+.about {
+		background-color: #f1f0ec;
+		padding-bottom: 50px;
+}
 .info{
-	max-width:1000px;
+	max-width:1200px;
 	margin:0 auto;
-	text-align: center;
+	text-align: left;
 }
 .info p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
+	color:#3c3c3c;
+}
+.privilege {
+padding-bottom: 100px;
+}
+.privilege_cont {
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 420px));
+	grid-row-gap: 10em;
+}
+.privilege_cont .holder {
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.privilege_cont .holder .icon-holder {
+}
+.privilege_cont .holder .text-holder {
+	display: inline-block;
+	line-height: 1.42857;
+	margin-left: 10px;
+}
+.privilege_cont .holder .text-holder h4{
+	padding-top: 10px;
+	font-size: 26px;
+	color:#533f34;
+	font-weight: normal;
+/*		font-family: "Tinos";
+    font-weight: normal;
+    font-style: normal;*/
+}
+.privilege_cont .holder .text-holder p {
+font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
 	color:rgb(60, 60, 60);
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height:120px;
+	background-color: #533f34;
+	color:white;
 }
 /*-------------------PRELOADER----------------------*/
 .loader {
